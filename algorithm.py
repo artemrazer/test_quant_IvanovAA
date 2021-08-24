@@ -66,7 +66,6 @@ def multi_trade_execute():
             trade = True
     mean_trade_price = mean_trade_price / amount_bought
     average_slippage += mean_trade_price
-    print(average_slippage)
 
 
 ''' The order book monitoring algorithm is as follows. 
